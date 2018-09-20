@@ -212,6 +212,7 @@ foreach my $r (@{$rows}) {
     $cur_y -= $PLOT_SIZE;
 }
 $surf->show_page();
+$surf->write_to_png('knit-chart.png');
 
 print "end of line.\n";
 exit 0;
